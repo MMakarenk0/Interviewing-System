@@ -400,3 +400,6 @@ FodyWeavers.xsd
 # Local config
 appsettings.Development.json
 appsettings.*.local.json
+
+# Certificates
+.certs/
