@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+	  <Version>1.0.3</Version>
+	  <Authors>Maksym Makarenko</Authors>
+	  <Company>NewGeneration</Company>
+	  <PackageDescription>Only for NewGeneration courses purposes!</PackageDescription>
+	  <RootNamespace>InterviewingSystem.Contracts</RootNamespace>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageId>InterviewingSystem.Contracts.Makarenko</PackageId>
+  </PropertyGroup>
+
+</Project>
