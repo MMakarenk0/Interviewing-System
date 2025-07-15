@@ -403,3 +403,6 @@ appsettings.*.local.json
 
 # Certificates
 .certs/
+
+# Local scripts
+start-services.bat
