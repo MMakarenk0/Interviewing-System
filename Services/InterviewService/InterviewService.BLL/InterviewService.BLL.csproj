@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InterviewService.Abstraction\InterviewService.Abstraction.csproj" />
+    <ProjectReference Include="..\InterviewService.DAL\InterviewService.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="InterviewingSystem.Contracts">
+      <HintPath>..\..\..\..\NuGets\interviewingsystem.contracts.makarenko\1.0.3\lib\net9.0\InterviewingSystem.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\..\..\..\NuGets\microsoft.extensions.dependencyinjection.abstractions\9.0.6\lib\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

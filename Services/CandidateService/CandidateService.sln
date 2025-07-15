@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateService.UnitTests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateService.API", "CandidateService.API\CandidateService.API.csproj", "{48734720-46E0-4445-98C1-1526375CD621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateService.Abstraction", "CandidateService.Abstraction\CandidateService.Abstraction.csproj", "{46B3C3E7-41D1-454C-A4C3-CB7D66969AEF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{48734720-46E0-4445-98C1-1526375CD621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48734720-46E0-4445-98C1-1526375CD621}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48734720-46E0-4445-98C1-1526375CD621}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46B3C3E7-41D1-454C-A4C3-CB7D66969AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46B3C3E7-41D1-454C-A4C3-CB7D66969AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46B3C3E7-41D1-454C-A4C3-CB7D66969AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46B3C3E7-41D1-454C-A4C3-CB7D66969AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
