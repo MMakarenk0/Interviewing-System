@@ -26,6 +26,9 @@ public class InterviewingSystemDbContext : IdentityDbContext<User, Role, Guid>
     public DbSet<Interview> Interviews { get; set; }
     public DbSet<Assessment> Assessments { get; set; }
     public DbSet<CachedApplication> CachedApplications { get; set; }
+    public DbSet<InterviewSlotTemplate> InterviewSlotTemplates { get; set; }
+    public DbSet<SlotTemplateEntry> SlotTemplateEntries { get; set; }
+    public DbSet<InterviewerProfile> InterviewerProfiles { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -41,6 +44,9 @@ public class InterviewingSystemDbContext : IdentityDbContext<User, Role, Guid>
         modelBuilder.ApplyConfiguration(new InterviewConfiguration());
         modelBuilder.ApplyConfiguration(new AssessmentConfiguration());
         modelBuilder.ApplyConfiguration(new CachedApplicationConfiguration());
+        modelBuilder.ApplyConfiguration(new InterviewSlotTemplateConfiguration());
+        modelBuilder.ApplyConfiguration(new SlotTemplateEntryConfiguration());
+        modelBuilder.ApplyConfiguration(new InterviewerProfileConfiguration());
 
         base.OnModelCreating(modelBuilder);
     }
